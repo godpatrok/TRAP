@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<link rel="icon" href="https://intheclouds.io/cdn/shop/files/Custom_Vinyl_Record_12inch_Red.png?v=1741013687" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trap Music</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #008000;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: #222;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        .artist-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .artist, .song {
+            background: #333;
+            padding: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        a {
+            color: #008000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .artist img {
+            width: 100%;
+            border-radius: 8px;
+            height: 250px;
+            object-fit: cover;
+        }
+        .artist div {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .artist img:hover {
+            transform: scale(1.1);
+        }
+.audio {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #5555;
+}
+
+    </style>
+    <script>
+        function openArtistPage(artist) {
+            window.location.href = artist + ".html";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        Trap Music
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Co je Trap?</h2>
+            <big><p>Trap je hudební žánr vycházející z jižanského hip hopu, který se objevil na přelomu 90. let a 21. století v USA. Jeho charakteristickým zvukem jsou temné syntezátory, hluboké basy a rychlé hi-haty, často produkované na Roland TR-808. Texty reflektují chudobu, násilí a realitu pouličního života.
+
+Po roce 2010 trap ovládl hudební žebříčky díky druhé vlně interpretů, jako jsou Migos, Cardi B, Post Malone nebo Travis Scott. Žánr se rozšířil i do pop music a ovlivnil elektronickou scénu skrze subžánr trap EDM. Streamovací platformy a sociální sítě sehrály klíčovou roli v jeho expanzi.
+
+Trap dnes dominuje hip hopu i mainstreamu, s interprety jako 21 Savage, Lil Uzi Vert, Future nebo Young Thug.
+
+</p></big>
+            <img src="https://muzikercdn.com/uploads/sitemap_nodes/18502/1850272/dcaa0c4e.jpg" alt="Trap koncert">
+        </div>
+ <div class="section">
+            <h2>Historie Trapu</h2>
+            <p>Trap se objevil v 90. letech v Atlantě a rychle se rozšířil do celého světa. Průkopníky žánru byli umělci jako T.I., Gucci Mane a Young Jeezy. Dnes je trap populární i mimo hip-hop a ovlivňuje různé hudební žánry.</p>
+            <img src="https://media.stubhubstatic.com/stubhub-v2-catalog/d_vgg-defaultLogo.jpg/t_f-fs-0fv,q_auto:low,f_auto,c_fill,$w_280_mul_3,$h_180_mul_3/categories/37636/6391070" alt="T.I. na koncertě">
+        </div>
+       
+        <div class="section">
+            <h2>Top 4 Trap Umělci</h2>
+            <div class="artist-grid">
+                <div class="artist" onclick="openArtistPage('travis_scott')" a href="travis_scott">
+                    <img src="https://www.hollywoodreporter.com/wp-content/uploads/2024/06/GettyImages-1492428431.jpg" alt="Travis Scott">
+                    <div>Travis Scott</div>
+                </div>
+                <div class="artist" onclick="openArtistPage('future')" a href="future">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2024/09/future-mixtape.jpg" alt="Future">
+                    <div>Future</div>
+                </div>
+                <div class="artist" onclick="openArtistPage('21savage')" a href="21savage">
+                    <img src="https://townsquare.media/site/812/files/2023/08/attachment-21-savage.jpg" alt="21 Savage">
+                    <div>21 Savage</div>
+                </div>
+                <div class="artist" onclick="openArtistPage('asap')" a href="asap">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5edf06dcd417cb4da8ba2163/1637091852201-E0QWZK96Y6W33SCKUNU9/asap-rocky-live-love-asap-cover.jpeg" alt="ASAP Rocky">
+                    <div>ASAP Rocky</div>
+                </div>
+            </div>
+        </div>
+<div class="audio">
+    <h2>Top 10 Trap Skladby</h2>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5eqK0tbzUPo2SoeZsov04s?utm_source=generator"
+        width="100%" height="80" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6gBFPUFcJLzWGx4lenP6h2?utm_source=generator"
+        width="100%" height="80" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2xLMifQCjDGFmkHkpNLD9h?utm_source=generator"
+        width="100%" height="80" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0VgkVdmE4gld66l8iyGjgx?utm_source=generator"
+        width="100%" height="80" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6fwdbPMwP1zVStm8FybmkO?utm_source=generator"
+        width="100%" height="80" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/20dP2DaMHIAmwWAbp7peSr?utm_source=generator"
+        width="100%" height="80" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2KvHC9z14GSl4YpkNMX384?utm_source=generator"
+        width="100%" height="80" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+</div>
+
+</body>
+<footer>
+    &copy; 2025 Trap Music. Všechna práva vyhrazena.<br>
+    Vlastníci stránky: Patrik Drozda, Jaroslav Hána.
+</footer>
+</html>
